@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+main {
+    flex: 1 0 auto;
+  }
+
+#ashcolour {
+    background: #b83838;
+}
+
+.panel {
+	background: black;
+	opacity: 0.6;
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+
+}
+
+.caption {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #b83838;
+}
+
+.img {
+	height: 22vh;
+	width: 100%;
+}
+
+.txt {
+	margin-left: 80px;
+	margin-right: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1.6em;
+}
+.intro {
+	font-size: 1.6em;
+	height: auto;
+}
+
+.details {
+	margin: 0px;
+  }
+
+ul:not(.browser-default)>li {
+	list-style-type: disc;
+}
